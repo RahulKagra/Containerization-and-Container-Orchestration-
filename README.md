@@ -17,8 +17,10 @@ AWS: EC2, ECR, ALB, ASG, VPC, Route 53, CloudWatch, IAM DevOps: Jenkins, Docker,
 Detailed Folder Structure (with explanations)
 
 SampleMERNwithMicroservices/
+
 │
 ├── backend/
+
 │   ├── helloService/        # Microservice 1 (Hello API)
 │   ├── profileService/      # Microservice 2 (Profile API)
 |   |── README.md/           # Backend documentation
@@ -87,3 +89,4 @@ npm install
 npm start
 
 Note: This will run the frontend in the development server. To run in production, build the application by running the command npm run build
+
